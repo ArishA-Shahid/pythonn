@@ -22,7 +22,7 @@ i = 0
 # Home Function
 def Home():
 	
-	print("\t\t\t\t\t\t WELCOME TO HOTEL ANCASA\n")
+	print("\t\t\t\t\t\t WELCOME TO HOTEL AUF\n")
 	print("\t\t\t 1 Booking\n")
 	print("\t\t\t 2 Rooms Info\n")
 	print("\t\t\t 3 Room Service(Menu Card)\n")
@@ -59,7 +59,7 @@ def Home():
 
 def date(c):
 	
-	if c[2] >= 2019 and c[2] <= 2020:
+	if c[2] >= 2019 and c[2] <= 2030:
 		
 		if c[1] != 0 and c[1] <= 12:
 			
